@@ -101,12 +101,5 @@ namespace MasterLoader
 					return string.Empty;
 			}
 		}
-
-		T CreateScriptableObject<T>(string output) where T : ScriptableObject
-		{
-			var res = ScriptableObject.CreateInstance<T>();
-			AssetDatabase.CreateAsset((ScriptableObject)res, output);
-			return res;
-		}
 	}
 }
