@@ -22,7 +22,7 @@ namespace MasterLoader
 		/// マスタのURLは不変なのでconstにして編集できないようにしておく
 		/// URLはスプレッドシートのコードを公開したときに表示されるものを入れる。
 		/// </summary>
-		const string URL = "https://script.google.com/macros/s/AKfycbxsLn9GTRBFRq3iG3y4urh9t9LZuVxZWuaqtCz0v-6hnPOgzRqB/exec";
+		const string URL = "GAS公開時に取得できるURL";
 		/// <summary>
 		/// マスタを配置するパス。ResoucesディレクトリとMasterディレクトリをあらかじめ作成しておく
 		/// </summary>
